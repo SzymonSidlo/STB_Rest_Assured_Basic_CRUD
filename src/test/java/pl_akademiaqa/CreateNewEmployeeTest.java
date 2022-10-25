@@ -44,6 +44,7 @@ class CreateNewEmployeeTest {
                 .when()
                 .post("http://localhost:3000/employees")
                 .then()
+//                .statusCode(201)
                 .extract()
                 .response();
 
